@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <h1>The Little Taco Shop Hours</h1>
+        <br>
+        <nav aria-label="primarynav">
+            <ul>
+                <li><a href="tacos.html">About LTS</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="storehrs.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <figure></figure>
+        <img src="images/tacosss.jpeg" alt="tasty tacos">
+        <figcaption>A Tray Of Tasty Tacos</figcaption>
+    </figure>
+    <hr>
+    </header>
+    
+    <main>
+        <h1>Our Contact Form</h1>
+
+       
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <form action="https://httpbin.org/post" method="post">
+                <p>
+                    <label for="FullName">Full Name</label>
+                    <input type="text" id="FullName" placeholder="your name" required autocomplete >
+                </p>  
+
+                <p>
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" placeholder="your mail" required autocomplete >
+                </p>
+
+                <p>
+                <textarea name="message" id="message" placeholder="type your message here" rows="10" cols="20">Your Message</textarea>
+                </p>
+
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+               
+            </form>
+
+        </fieldset>
+
+    </main>
+    
+</body>
+</html>
